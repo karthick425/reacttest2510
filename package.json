@@ -2,8 +2,8 @@
   "name": "Use_Case_Front_End",
   "version": "1.0.0",
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/karthick425/reacttest2510.git"
   },
   "license": "MIT",
   "scripts": {
