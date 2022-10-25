@@ -5,6 +5,7 @@
     "type": "git",
     "url": "https://github.com/karthick425/reacttest2510.git"
   },
+  "homepage": "https://github.com/karthick425/reacttest2510.git",
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
