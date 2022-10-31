@@ -13,5 +13,5 @@ function getById(id,startdate,enddate) {
         headers: authHeader()
     };
 
-  return axios.get(`${config.apiUrl}/api/v/1.0/market/stock/get/${id}/${startdate}/${enddate}`, requestOptions).then(res => res.data);     
+  return axios.get(`${config.apiUrl}/api/Stock/get/${id}/${startdate}/${enddate}`, requestOptions).then(res => res.data);     
 }

@@ -14,7 +14,7 @@ function getAll() {
         headers: authHeader()
     };
 
-    return axios.get(`${config.apiUrl}/api/v1.0/market/company/getall`, requestOptions).then(res => res.data);     
+    return axios.get(`${config.apiUrl}/api/Company`, requestOptions).then(res => res.data);     
 }
 
 function getById(id) {
@@ -22,5 +22,5 @@ function getById(id) {
         method: 'GET'
     };
 
-    return fetch(`${config.apiUrl}/api/v1.0/market/company/info/${id}`, requestOptions).then(res => res.data); 
+    return fetch(`${config.apiUrl}/api/Company/${id}`, requestOptions).then(res => res.data); 
 }
