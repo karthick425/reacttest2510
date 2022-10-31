@@ -34,8 +34,8 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'https://localhost:7063',
-            authUrl:'https://localhost:7108'
+            apiUrl: 'https://usecasegateway20221031124656.azurewebsites.net',
+            authUrl:'https://usecaseauthservice20221031124202.azurewebsites.net'
         })
     }
 }
