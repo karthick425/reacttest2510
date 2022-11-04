@@ -34,8 +34,8 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'https://stockexchangeservice20221101080817.azurewebsites.net',
-            authUrl:'https://usecaseauthservice20221101081356.azurewebsites.net'
+            apiUrl: 'https://stockexchangeservice20221104122057.azurewebsites.net',
+            authUrl:'https://usecaseauthservice20221104122803.azurewebsites.net/'
         })
     }
 }
